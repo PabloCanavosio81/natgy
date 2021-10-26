@@ -1,0 +1,297 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  background-image: url(../img/26800-plantas.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: "Saira Extra Condensed", sans-serif;
+  margin: 1%;
+  padding: 1%; }
+
+h1 {
+  color: white;
+  text-align: center;
+  font-size: 40px;
+  text-decoration: underline;
+  margin-bottom: 7.5%; }
+
+h2 {
+  color: #11594a;
+  text-align: center;
+  font-size: 30px;
+  text-decoration: underline; }
+
+h3 {
+  color: #11594a; }
+
+/*----------------------------------------------------------header------------------------------------*/
+.primera {
+  width: 101.85%;
+  height: 7.5rem;
+  border: 2px double #949494;
+  background-color: #8cb63c; }
+  .primera img {
+    float: left;
+    padding: 5px;
+    margin-left: 0px; }
+  .primera button {
+    border-radius: 100%; }
+
+/*------------------------------------navegador de la pagina--------------------------------------------*/
+ul {
+  background-color: white;
+  margin: 5px auto;
+  padding: 0%;
+  width: 100%;
+  max-width: 2000px;
+  list-style: none;
+  z-index: 1;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around; }
+
+li {
+  display: inline-block;
+  text-align: center;
+  position: relative;
+  color: #11594a;
+  text-decoration: none;
+  padding: 5px; }
+
+ul ul {
+  position: absolute;
+  display: none; }
+
+ul ul li {
+  display: block; }
+
+ul li:hover {
+  background-color: #6d6d6d;
+  color: #8cb63c; }
+
+a {
+  text-decoration: none;
+  color: #11594a;
+  align-items: center; }
+
+a:hover {
+  color: #8cb63c; }
+
+ul li:hover ul {
+  display: block;
+  background-color: #b9b8b8; }
+
+.subitem {
+  align-items: center;
+  font-size: 70%; }
+
+/*--------------------------------publicacion productos primera pagina-----------------------------------*/
+.carousel {
+  display: flex;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 2%;
+  margin-bottom: 5%; }
+  .carousel .publicidad {
+    margin: 30px;
+    padding: 30px;
+    background-color: white; }
+    .carousel .publicidad .cajaPublicidad {
+      width: 900px;
+      height: auto;
+      padding: 20px;
+      margin: 20px;
+      background-color: white;
+      margin-left: 15%;
+      margin-right: 15%;
+      margin-top: 5%;
+      margin-bottom: 5%; }
+
+/*---------------------------------boton whatsapp-------------------------------------------------------*/
+.sticky-bottom {
+  position: fixed;
+  top: 570px;
+  right: 10px;
+  display: flex;
+  flex-direction: row-reverse;
+  z-index: 1; }
+
+/*--------------------------------entrenate con nosotros video--------------------------------------------*/
+.entrenateConNosotros {
+  color: #11594a;
+  background-color: white;
+  text-decoration: underline;
+  text-align: center;
+  margin: 2%;
+  padding: 2%;
+  margin-bottom: 5%;
+  margin-top: 5%; }
+  .entrenateConNosotros .fondoVideo {
+    background-color: #b9b8b8;
+    padding: 2%;
+    padding-bottom: 3%; }
+
+/*--------------------------especificaciones generales de la pagina----------------------------------------*/
+p {
+  color: #11594a;
+  font-size: 1.3rem;
+  line-height: 1.2;
+  word-spacing: 8px; }
+
+a {
+  font-size: 150%;
+  color: #11594a;
+  text-decoration: none;
+  text-align: center; }
+
+/*---------------------------------------parrafo en blanco------------------------------------------*/
+.blancoParrafo {
+  color: white;
+  font-family: "Walter Turncoat", cursive;
+  font-size: 1.7rem;
+  line-height: 1.2;
+  word-spacing: 8px;
+  margin: 0%;
+  margin-left: 5%;
+  margin-right: 5%; }
+
+/*---------------------productos y contactanos-------------------------------------------------------*/
+.productos {
+  color: #11594a;
+  background-color: white;
+  margin: 2%;
+  padding: 1%;
+  border-radius: 2.5%; }
+  .productos .caja {
+    width: 350px;
+    height: auto;
+    padding: 20px;
+    margin: 20px;
+    display: inline-block;
+    text-align: center;
+    background-color: #c6f0c6;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 5%;
+    opacity: .9;
+    border: 2px double #949494;
+    border-radius: 5%; }
+    .productos .caja:hover {
+      opacity: 2;
+      border: white;
+      transform: scale(1.1, 1.1);
+      border: 2px double #949494;
+      transition: ease; }
+
+/*-------------------------formulario de contacto--------------------------------------*/
+.formulario {
+  color: #11594a;
+  background-color: white;
+  margin: 3%;
+  padding: 2%;
+  font-size: 25px;
+  text-align: center; }
+  .formulario .contactanos {
+    color: #11594a;
+    text-align: center;
+    font-size: 30px;
+    text-decoration: underline; }
+
+/*-----------------------metodos de pagos y links social-----------------------------------------*/
+.linkSocial {
+  background-color: white;
+  margin: 1%;
+  padding: 5px;
+  height: 7rem; }
+  .linkSocial .metodosDePago {
+    display: flex;
+    flex-direction: row;
+    margin-left: 1.5%;
+    margin-right: 1%; }
+    .linkSocial .metodosDePago img {
+      padding-right: 1%;
+      padding-top: 1%; }
+  .linkSocial .social {
+    display: flex;
+    flex-direction: row-reverse; }
+    .linkSocial .social img {
+      padding-left: 1%;
+      padding-right: 2%; }
+
+/*----------------------------footer pagina principal natgy-----------------------------------------*/
+.ultimo {
+  margin: 20px;
+  padding: 20px;
+  height: 150px;
+  background-color: white;
+  text-align: center; }
+  .ultimo img {
+    float: left;
+    padding: 5px;
+    margin-left: 0px; }
+  .ultimo .direccion {
+    margin-top: 90px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end; }
+
+/*----------------------------especificacione del main en los html de los productos--------------------*/
+.fondoProducto {
+  /*organizacion de los productos*/
+  background-color: white;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 2.5%; }
+  .fondoProducto .cajaProducto {
+    width: 400px;
+    height: auto;
+    padding: 20px;
+    margin: 20px;
+    display: inline-block;
+    text-align: center;
+    background-color: #b6f3b6;
+    margin-left: 100px;
+    margin-right: 100px;
+    opacity: .9;
+    border: 2px double #949494;
+    border-radius: 5%; }
+    .fondoProducto .cajaProducto:hover {
+      opacity: 2;
+      border: white;
+      transform: scale(1.1, 1.1);
+      border: 2px double #949494;
+      transition: ease; }
+
+/*----------------------------------media tamano dispositivos-----------------------------------------*/
+@media only screen and (max-width: 768px) {
+  body {
+    background-image: url(../img/653578_052c27477b62408f890fba01758708d0_mv2_d_5574_7115_s_4_2.jpeg);
+    font-size: 10px; }
+  h1 {
+    color: #11594a; }
+  .blancoParrafo {
+    color: #11594a; }
+  .ultimo {
+    height: 200px; }
+  .sticky-bottom {
+    top: 540px; } }
+
+@media only screen and (min-width: 768px) {
+  body {
+    background-image: url(../img/dark-honeycomb.png); } }
+
+@media only screen and (min-width: 1200px) {
+  body {
+    background-image: url(../img/26800-plantas.jpg); } }
+
+/*-----------------html protein, energizante, bebida-----------*/
+.padre {
+  background-color: white;
+  width: 70%;
+  height: 400px;
+  display: flex; }
