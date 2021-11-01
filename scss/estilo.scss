@@ -9,8 +9,8 @@
     background-size: cover;
     background-attachment: fixed;
     font-family: "Saira Extra Condensed", sans-serif;
-    margin: 1%;
-    padding: 1%;
+    margin: 0.5%;
+    padding: 0.5%;
   }
   h1 {
     color: white;
@@ -323,7 +323,25 @@ a {
 .padre{
     background-color: rgb(255, 255, 255);
     width: 70%;
-    height: 400px;
+    height: 435px;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 0.5%;
+    margin-bottom: 5%;
+    border-radius: 5%;
     display: flex;
+    .imagen{
+      align-items: center;
+      padding: 10px;
+    }
+    .texto{
+      text-align: center;
+      align-items: center;
+      margin-top: 130px;
+    }
+    .energy{
+      align-items: center;
+    }
+   
 }
 
