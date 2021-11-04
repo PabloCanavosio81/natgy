@@ -33,7 +33,7 @@
     width: 101.85%;
     height: 7.5rem;
     border: 2px double #949494; 
-    background-color: rgb(140, 182, 60);
+    background-color:  rgb(198, 240, 198);
     img {
       float: left;
       padding: 5px;
@@ -97,26 +97,15 @@ ul ul {
 /*--------------------------------publicacion productos primera pagina-----------------------------------*/
 .carousel{
     display: flex;
+    justify-content: center;
     margin-left: 15%;
     margin-right: 15%;
     margin-top: 2%;
     margin-bottom: 5%;
-    .publicidad {
-      margin: 30px;
-      padding: 30px;
-      background-color: rgb(255, 255, 255);
-      .cajaPublicidad {
-         width: 900px;
-         height: auto;
-         padding: 20px;
-         margin: 20px;
-         background-color: rgb(255, 255, 255);
-         margin-left: 15%;
-         margin-right: 15%;
-         margin-top: 5%;
-         margin-bottom: 5%;
-      }
-  }
+    img{
+      border-radius: 5% ;
+      border: 2px double #949494;
+   }
 }  
 /*---------------------------------boton whatsapp-------------------------------------------------------*/
 .sticky-bottom{
@@ -167,7 +156,6 @@ a {
   margin:0%; 
   margin-left: 5%;
   margin-right: 5%;
-  
   }
   /*---------------------productos y contactanos-------------------------------------------------------*/
   .productos {
@@ -176,6 +164,8 @@ a {
     margin: 2%;
     padding: 1%;
     border-radius: 2.5% ;
+    display: flex;
+    justify-content: space-around;
     .caja {
        width: 350px;
        height: auto;
@@ -212,14 +202,22 @@ a {
        text-align: center;
        font-size: 30px;
        text-decoration: underline;
-    }
- }
+       padding: 2%;
+       margin: 2%;
+      }
+      .nombre{
+        margin-right: 4%;
+        display: inline-block;
+      }   
+  }
+ 
   /*-----------------------metodos de pagos y links social-----------------------------------------*/
   .linkSocial{
     background-color: rgb(255, 255, 255);
     margin: 1%;
     padding: 5px;
     height: 7rem;
+    margin-top: 5%;
     .metodosDePago{
        display: flex;
        flex-direction: row;
@@ -236,6 +234,7 @@ a {
        img{
          padding-left: 1%;
          padding-right: 2%;
+         margin-left: 1rem ;
        }
      }
   } 
@@ -267,16 +266,16 @@ a {
     margin: 20px;
     padding: 20px;
     border-radius: 2.5%;
+    display: flex;
+    justify-content: space-around; 
   .cajaProducto {
      width: 400px;
      height: auto;
-     padding: 20px;
-     margin: 20px;
+     padding: 2%;
+     margin: 2%;
      display: inline-block;
      text-align: center;
      background-color:  rgb(182, 243, 182);
-     margin-left: 100px;
-     margin-right: 100px;
      opacity: .9;
      border: 2px double #949494;
      border-radius: 5% ;
@@ -307,6 +306,16 @@ a {
     .sticky-bottom{
       top: 540px;
     }
+    .padre{
+     height: auto; 
+     align-items: center;
+    }
+    .carousel{
+      width: 100%;
+      height: 250px;
+      display: flex;
+      justify-content: center;
+    }
     
   }
   @media only screen and (min-width: 768px ){
@@ -330,14 +339,16 @@ a {
     margin-bottom: 5%;
     border-radius: 5%;
     display: flex;
+    justify-content: flex-end;
+    border: 2px double #949494;
     .imagen{
       align-items: center;
-      padding: 10px;
+      padding: 5%;
     }
     .texto{
       text-align: center;
       align-items: center;
-      margin-top: 130px;
+      margin-top: 10%;
     }
     .energy{
       align-items: center;

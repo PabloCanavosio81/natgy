@@ -33,7 +33,7 @@ h3 {
   width: 101.85%;
   height: 7.5rem;
   border: 2px double #949494;
-  background-color: #8cb63c; }
+  background-color: #c6f0c6; }
   .primera img {
     float: left;
     padding: 5px;
@@ -92,24 +92,14 @@ ul li:hover ul {
 /*--------------------------------publicacion productos primera pagina-----------------------------------*/
 .carousel {
   display: flex;
+  justify-content: center;
   margin-left: 15%;
   margin-right: 15%;
   margin-top: 2%;
   margin-bottom: 5%; }
-  .carousel .publicidad {
-    margin: 30px;
-    padding: 30px;
-    background-color: white; }
-    .carousel .publicidad .cajaPublicidad {
-      width: 900px;
-      height: auto;
-      padding: 20px;
-      margin: 20px;
-      background-color: white;
-      margin-left: 15%;
-      margin-right: 15%;
-      margin-top: 5%;
-      margin-bottom: 5%; }
+  .carousel img {
+    border-radius: 5%;
+    border: 2px double #949494; }
 
 /*---------------------------------boton whatsapp-------------------------------------------------------*/
 .sticky-bottom {
@@ -165,7 +155,9 @@ a {
   background-color: white;
   margin: 2%;
   padding: 1%;
-  border-radius: 2.5%; }
+  border-radius: 2.5%;
+  display: flex;
+  justify-content: space-around; }
   .productos .caja {
     width: 350px;
     height: auto;
@@ -199,14 +191,20 @@ a {
     color: #11594a;
     text-align: center;
     font-size: 30px;
-    text-decoration: underline; }
+    text-decoration: underline;
+    padding: 2%;
+    margin: 2%; }
+  .formulario .nombre {
+    margin-right: 4%;
+    display: inline-block; }
 
 /*-----------------------metodos de pagos y links social-----------------------------------------*/
 .linkSocial {
   background-color: white;
   margin: 1%;
   padding: 5px;
-  height: 7rem; }
+  height: 7rem;
+  margin-top: 5%; }
   .linkSocial .metodosDePago {
     display: flex;
     flex-direction: row;
@@ -220,7 +218,8 @@ a {
     flex-direction: row-reverse; }
     .linkSocial .social img {
       padding-left: 1%;
-      padding-right: 2%; }
+      padding-right: 2%;
+      margin-left: 1rem; }
 
 /*----------------------------footer pagina principal natgy-----------------------------------------*/
 .ultimo {
@@ -246,17 +245,17 @@ a {
   background-color: white;
   margin: 20px;
   padding: 20px;
-  border-radius: 2.5%; }
+  border-radius: 2.5%;
+  display: flex;
+  justify-content: space-around; }
   .fondoProducto .cajaProducto {
     width: 400px;
     height: auto;
-    padding: 20px;
-    margin: 20px;
+    padding: 2%;
+    margin: 2%;
     display: inline-block;
     text-align: center;
     background-color: #b6f3b6;
-    margin-left: 100px;
-    margin-right: 100px;
     opacity: .9;
     border: 2px double #949494;
     border-radius: 5%; }
@@ -279,7 +278,15 @@ a {
   .ultimo {
     height: 200px; }
   .sticky-bottom {
-    top: 540px; } }
+    top: 540px; }
+  .padre {
+    height: auto;
+    align-items: center; }
+  .carousel {
+    width: 100%;
+    height: 250px;
+    display: flex;
+    justify-content: center; } }
 
 @media only screen and (min-width: 768px) {
   body {
@@ -299,13 +306,15 @@ a {
   margin-top: 0.5%;
   margin-bottom: 5%;
   border-radius: 5%;
-  display: flex; }
+  display: flex;
+  justify-content: flex-end;
+  border: 2px double #949494; }
   .padre .imagen {
     align-items: center;
-    padding: 10px; }
+    padding: 5%; }
   .padre .texto {
     text-align: center;
     align-items: center;
-    margin-top: 130px; }
+    margin-top: 10%; }
   .padre .energy {
     align-items: center; }
