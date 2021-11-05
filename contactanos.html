@@ -63,39 +63,42 @@
       <hr>
     </section>
     <div class="sticky-bottom"><!--boton whattsapp-->
-      <a href=""> <img src="./img/R.png" width="70px" alt=""> </a> 
+      <a href="https://web.whatsapp.com/"> <img src="./img/R.png" width="70px" alt="boton whatsapp"> </a> 
     </div>
     <section>
         <fieldset class="formulario"><!--CONTACTANOS FORMULARIO-->
             <h2 id="top" class="contactanos"> <strong> CONTACTANOS📲</strong></h2> 
-            <div class= "m-3 p-2 ">
-              <div class="nombre">
-                <label for="nombre">Escribe tu Nombre</label>
-                <input type="text" name="nombre" placeholder="NOMBRE">
-              </div>
-                <label for="apellido">Escribe tu Apellido</label>
-                <input type="text" name="apellido" placeholder="APELLIDO">
-            </div>
-            <div class="m-3 p-2">
-                <label for="sexo">Senala tu genero</label>
-                <input type="radio" name="genero"
-                value="mujer">FEMENINO
-                <input type="radio" name="genero"
-                value="hombre">MASCULINO
-                <input type="radio" name="genero"
-                value="otro">OTRO
-            </div>
-            <div class="m-3 p-2">
-              <div class="nombre">
-                <label for="telefono">Escribe tu Telefono</label>
-                <input type="number" name="telefono" placeholder 3513029597>
-              </div>  
-                <label for="email"> Escribe tu email</label>
-                <input type="email" name="email" required placeholder="EMAIL">
-            </div>
-            <div class="m-3 p-2">
-                <label for="pais">Nacionalidad</label>
-                <select name="pais" id="">
+            <div class= "m-3 p-2">
+            <div class="contactanos row">
+              <div class="col">
+              <form class="row g-3">
+                <div class="col-md-6">
+                  <label for="inputEmail4" class="form-label">Nombre</label>
+                  <input type="email" class="form-control" id="inputEmail4">
+                </div>
+                <div class="col-md-6">
+                  <label for="inputEmail4" class="form-label">Apellido</label>
+                  <input type="email" class="form-control" id="inputEmail4">
+                </div>
+                <div class="col-md-6">
+                  <label for="inputEmail4" class="form-label">Email</label>
+                  <input type="email" class="form-control" id="inputEmail4">
+                </div>
+                <div class="col-md-6">
+                  <label for="inputPassword4" class="form-label">Telefono</label>
+                  <input type="password" class="form-control" id="inputPassword4">
+                </div>
+                <div class="col-12">
+                  <label for="inputAddress" class="form-label">Direccion</label>
+                  <input type="text" class="form-control" id="inputAddress" placeholder="">
+                </div>
+                <div class="col-md-6">
+                  <label for="inputCity" class="form-label">Ciudad</label>
+                  <input type="text" class="form-control" id="inputCity">
+                </div>
+                <div class="col-md-4">
+                  <label for="inputState" class="form-label">Nacionalidad</label>
+                  <select id="inputState" class="form-select">
                     <option value="arg">ARGENTINA</option>
                     <option value="bra">BRASIL</option>
                     <option value="chi">CHILE</option>
@@ -103,16 +106,21 @@
                     <option value="par">PARAGUAY</option>
                     <option value="uru">URUGUAY</option>
                     <option value="otro">OTRO</option>
-                </select>    
-            </div>
-            <div class="comentario">
-                <label for="comentario" name="comentario"> Deja tu comentario</label>
-                <textarea name="comentario" id="" cols="50" rows="10"></textarea>
+                  </select>
+                </div>
+                <div class="col-md-2">
+                  <label for="inputZip" class="form-label">Codigo postal</label>
+                  <input type="text" class="form-control" id="inputZip">
+                </div>
+              </form>  
+            <div class="contactanos form-floating">
+              <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+              <label for="floatingTextarea2">Comentarios</label>
             </div>
             <div>
-                <input type="submit" value="enviar datos">
-                <input type="reset"  value="borrar formulario" >
-            </div>
+              <input type="submit" value="enviar datos">
+              <input type="reset"  value="borrar formulario" >
+          </div>
         </fieldset>  
   <hr>
     </section>
