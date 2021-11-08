@@ -124,6 +124,7 @@ ul ul {
     margin-bottom: 5%;
     margin-top: 5%;
     border-radius: 15px;
+    height: 860px;
     .fondoVideo {
       padding: 2%;
       padding-bottom: 3%;
@@ -308,6 +309,12 @@ a {
       height: 250px;
       margin: 0%;
       padding: 0%;
+    }
+    .entrenateConNosotros{
+      height: 350px;
+      iframe{
+        height: 250px;
+      }
     }
     
   }
