@@ -74,7 +74,7 @@ a {
   text-decoration: none;
   color: #11594a;
   align-items: center;
-  transition: .2s ease; }
+  transition: .3s ease; }
 
 a:hover {
   color: #8cb63c; }
@@ -170,7 +170,7 @@ a {
     margin-bottom: 5%;
     opacity: .9;
     border-radius: 15px;
-    transition: .2s ease; }
+    transition: .3s ease; }
     .productos .caja:hover {
       opacity: 2;
       border: white;
@@ -252,7 +252,7 @@ a {
     background-color: #c7f1c2;
     opacity: .9;
     border-radius: 15px;
-    transition: .2s ease; }
+    transition: ease .3s; }
     .fondoProducto .cajaProducto:hover {
       opacity: 2;
       border: white;
