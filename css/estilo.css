@@ -14,16 +14,31 @@ body {
 
 h1 {
   color: white;
+  text-decoration: none;
   text-align: center;
   font-size: 40px;
-  margin-bottom: 7.5%; }
+  margin-bottom: 6.5%; }
 
 h2 {
   color: #11594a;
+  text-decoration: none;
   text-align: center;
   font-size: 30px; }
 
 h3 {
+  color: #11594a; }
+
+/*--------------------------especificaciones generales de la pagina----------------------------------------*/
+p {
+  color: #11594a;
+  font-size: 1.3rem;
+  line-height: 1.2;
+  word-spacing: 8px; }
+
+a {
+  text-decoration: none;
+  text-align: center;
+  font-size: 150%;
   color: #11594a; }
 
 /*----------------------------------------------------------header------------------------------------*/
@@ -35,8 +50,6 @@ h3 {
     float: left;
     padding: 5px;
     margin-left: 0px; }
-  .primera button {
-    border-radius: 100%; }
 
 /*------------------------------------navegador de la pagina--------------------------------------------*/
 ul {
@@ -106,7 +119,38 @@ ul li:hover ul {
   right: 10px;
   display: flex;
   flex-direction: row-reverse;
-  z-index: 1; }
+  z-index: 2; }
+
+/*---------------------------------productos-------------------------------------------------------*/
+.productos {
+  color: #11594a;
+  background-color: white;
+  margin: 2%;
+  padding: 1%;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; }
+  .productos .caja {
+    width: 350px;
+    height: auto;
+    padding: 20px;
+    margin: 20px;
+    display: inline-block;
+    flex-direction: column;
+    text-align: center;
+    background-color: #c7f1c2;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 5%;
+    opacity: .9;
+    border-radius: 15px;
+    transition: .3s ease;
+    box-shadow: 0 8px 32px 0 rgba(19, 19, 19, 0.301); }
+    .productos .caja:hover {
+      opacity: 2;
+      border: white;
+      transform: scale(1.1, 1.1); }
 
 /*--------------------------------entrenate con nosotros video--------------------------------------------*/
 .entrenateConNosotros {
@@ -122,19 +166,8 @@ ul li:hover ul {
   .entrenateConNosotros .fondoVideo {
     padding: 2%;
     padding-bottom: 3%; }
-
-/*--------------------------especificaciones generales de la pagina----------------------------------------*/
-p {
-  color: #11594a;
-  font-size: 1.3rem;
-  line-height: 1.2;
-  word-spacing: 8px; }
-
-a {
-  font-size: 150%;
-  color: #11594a;
-  text-decoration: none;
-  text-align: center; }
+    .entrenateConNosotros .fondoVideo iframe {
+      box-shadow: 0 8px 32px 0 rgba(19, 19, 19, 0.301); }
 
 /*---------------------------------------parrafo en blanco------------------------------------------*/
 .blancoParrafo {
@@ -146,52 +179,6 @@ a {
   margin: 0%;
   margin-left: 5%;
   margin-right: 5%; }
-
-/*---------------------productos y contactanos-------------------------------------------------------*/
-.productos {
-  color: #11594a;
-  background-color: white;
-  margin: 2%;
-  padding: 1%;
-  border-radius: 15px;
-  display: flex;
-  justify-content: center; }
-  .productos .caja {
-    width: 350px;
-    height: auto;
-    padding: 20px;
-    margin: 20px;
-    display: flex;
-    display: inline-block;
-    flex-direction: column;
-    text-align: center;
-    background-color: #c7f1c2;
-    margin-left: 25px;
-    margin-right: 25px;
-    margin-bottom: 5%;
-    opacity: .9;
-    border-radius: 15px;
-    transition: .3s ease; }
-    .productos .caja:hover {
-      opacity: 2;
-      border: white;
-      transform: scale(1.1, 1.1); }
-
-/*-------------------------formulario de contacto--------------------------------------*/
-.formulario {
-  color: #11594a;
-  background-color: white;
-  margin: 3%;
-  padding: 2%;
-  font-size: 25px;
-  text-align: center;
-  border-radius: 15px; }
-  .formulario .contactanos {
-    color: #11594a;
-    text-align: center;
-    font-size: 30px;
-    margin: 1%;
-    padding: auto; }
 
 /*-----------------------metodos de pagos y links social-----------------------------------------*/
 .linkSocial {
@@ -216,48 +203,48 @@ a {
       padding-right: 2%;
       margin-left: 1rem; }
 
-/*----------------------------footer pagina principal natgy-----------------------------------------*/
-.ultimo {
-  margin: 20px;
-  padding: 20px;
-  height: 150px;
+/*-------------------------formulario de contacto--------------------------------------*/
+.formulario {
   background-color: white;
-  text-align: center; }
-  .ultimo img {
-    float: left;
-    padding: 5px;
-    margin-left: 0px; }
-  .ultimo .direccion {
-    margin-top: 90px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: flex-end; }
+  margin: 3%;
+  padding: 2%;
+  font-size: 25px;
+  text-align: center;
+  border-radius: 15px; }
+  .formulario .contactanos {
+    color: #11594a;
+    text-align: center;
+    font-size: 30px;
+    margin: 1%;
+    padding: auto; }
 
 /*----------------------------especificacione del main en los html de los productos--------------------*/
 .fondoProducto {
   /*organizacion de los productos*/
-  background-color: white;
   margin: 20px;
   padding: 20px;
   border-radius: 15px;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around; }
   .fondoProducto .cajaProducto {
-    width: 400px;
+    width: auto;
     height: auto;
     padding: 2%;
     margin: 2%;
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
     text-align: center;
-    background-color: #c7f1c2;
+    background-color: white;
     opacity: .9;
     border-radius: 15px;
-    transition: ease .3s; }
+    transition: ease .3s;
+    box-shadow: 0 8px 32px 0 rgba(19, 19, 19, 0.301); }
     .fondoProducto .cajaProducto:hover {
       opacity: 2;
       border: white;
-      transform: scale(1.1, 1.1); }
+      transform: scale(1.1, 1.1);
+      z-index: 1; }
 
 /*----------------------------------media tamano dispositivos-----------------------------------------*/
 @media only screen and (max-width: 768px) {
@@ -270,12 +257,9 @@ a {
     color: #11594a;
     font-size: 1.2rem; }
   .ultimo {
-    height: 200px; }
+    height: 300px; }
   .sticky-bottom {
     top: 540px; }
-  .padre {
-    height: auto;
-    align-items: center; }
   .carousel {
     width: 100%;
     height: 250px;
@@ -298,7 +282,7 @@ a {
 .padre {
   background-color: white;
   width: 70%;
-  height: 40%;
+  height: auto;
   margin-left: 15%;
   margin-right: 15%;
   margin-top: 0.5%;
@@ -307,9 +291,28 @@ a {
   display: flex;
   justify-content: flex-end; }
   .padre .imagen {
-    align-items: center;
-    padding: 5%; }
+    flex-direction: column;
+    padding: 5%;
+    margin-top: 0%; }
   .padre .texto {
     text-align: center;
     align-items: center;
-    margin-top: 10%; }
+    margin-top: 5%; }
+
+/*----------------------------footer pagina principal natgy-----------------------------------------*/
+.ultimo {
+  margin: 20px;
+  padding: 20px;
+  height: 150px;
+  background-color: white;
+  text-align: center; }
+  .ultimo img {
+    float: left;
+    padding: 5px;
+    margin-left: 0px; }
+  .ultimo .direccion {
+    margin-top: 90px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end; }

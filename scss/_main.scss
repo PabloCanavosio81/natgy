@@ -1,0 +1,115 @@
+/*--------------------------------publicacion productos primera pagina-----------------------------------*/
+.carousel{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 2%;
+    margin-bottom: 5%;
+    img{
+      border-radius: 15px ;
+   }
+}  
+/*---------------------------------boton whatsapp-------------------------------------------------------*/
+.sticky-bottom{
+    position: fixed;
+    top: 570px;
+    right: 10px;
+    display: flex;
+    flex-direction: row-reverse;
+    z-index: 2;
+    }
+ /*---------------------------------productos-------------------------------------------------------*/
+.productos {
+    color: $font_color;
+    background-color:$bg_recuadros;
+    margin: 2%;
+    padding: 1%;
+    border-radius: 15px ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    .caja {
+       width: 350px;
+       height: auto;
+       padding: 20px;
+       margin: 20px;
+       display: inline-block;
+       flex-direction: column;
+       text-align: center;
+       background-color: $bg_productos;
+       margin-left: 25px;
+       margin-right: 25px;
+       margin-bottom: 5%;
+       opacity: .9;
+       border-radius: 15px;
+       transition: .3s ease;
+       box-shadow: 0 8px 32px 0 rgba(19, 19, 19, 0.301);
+       &:hover{
+         opacity:2;
+         border: white;
+         transform: scale(1.1,1.1) ;
+       }
+  }
+}  
+    
+  /*--------------------------------entrenate con nosotros video--------------------------------------------*/
+  .entrenateConNosotros {
+    color:$font_color;
+    background-color:$bg_recuadros;
+    text-align: center;
+    margin: 2%;
+    padding: 2%;
+    margin-bottom: 5%;
+    margin-top: 5%;
+    border-radius: 15px;
+    height: 860px;
+    .fondoVideo {
+      padding: 2%;
+      padding-bottom: 3%;
+      iframe{
+        box-shadow: 0 8px 32px 0 rgba(19, 19, 19, 0.301);
+      }  
+  }
+} 
+
+ /*---------------------------------------parrafo en blanco------------------------------------------*/
+.blancoParrafo{
+  color: white;
+  font-family: "Walter Turncoat", cursive;
+  font-size: 1.7rem;
+  line-height: 1.2;
+  word-spacing: 8px;
+  margin:0%; 
+  margin-left: 5%;
+  margin-right: 5%;
+  }
+  /*-----------------------metodos de pagos y links social-----------------------------------------*/
+  .linkSocial{
+    background-color: $bg_recuadros;
+    margin: 1%;
+    padding: 5px;
+    height: 7rem;
+    margin-top: 5%;
+    .metodosDePago{
+       display: flex;
+       flex-direction: row;
+       margin-left: 1.5%;
+       margin-right: 1%;
+       img{
+         padding-right: 1%;
+         padding-top: 1%;
+       }
+    }
+    .social{
+       display: flex;
+       flex-direction: row-reverse;
+       img{
+         padding-left: 1%;
+         padding-right: 2%;
+         margin-left: 1rem ;
+       }
+     }
+  } 
+ 

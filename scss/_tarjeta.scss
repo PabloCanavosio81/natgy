@@ -1,0 +1,26 @@
+ /*-----------------html protein, energizante, bebida-----------*/ 
+ .padre{
+    background-color: $bg_recuadros;
+    width: 70%;
+    height: auto;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 0.5%;
+    margin-bottom: 5%;
+    border-radius: 15px;
+    display: flex;
+    justify-content: flex-end;
+    
+    .imagen{
+      flex-direction: column;
+      padding: 5%;
+      margin-top: 0%;
+    }
+    .texto{
+      text-align: center;
+      align-items: center;
+      margin-top: 5%;
+    }
+    
+}
+

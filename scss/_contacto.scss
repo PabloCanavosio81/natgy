@@ -1,0 +1,17 @@
+/*-------------------------formulario de contacto--------------------------------------*/
+.formulario {
+    background-color:$bg_recuadros;
+    margin: 3%;
+    padding: 2%;
+    font-size: 25px;
+    text-align: center;
+    border-radius: 15px;
+    .contactanos {
+       color: $font_color;
+       text-align: center;
+       font-size: 30px;
+       margin: 1%;
+       padding: auto;
+      }
+  }
+ 

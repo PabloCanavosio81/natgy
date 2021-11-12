@@ -1,0 +1,44 @@
+/*----------------------------------media tamano dispositivos-----------------------------------------*/
+@media only screen and (max-width:768px ) {
+    body{
+      background-image: url(../img/653578_052c27477b62408f890fba01758708d0_mv2_d_5574_7115_s_4_2.jpeg);
+      font-size: 10px;
+    }
+    h1 {
+      color:$font_color ;
+    }
+    .blancoParrafo{
+      color: $font_color ;
+      font-size: 1.2rem;
+    }
+    .ultimo{
+      height: 300px;
+    }
+    .sticky-bottom{
+      top: 540px;
+    }
+    
+    .carousel{
+      width: 100%;
+      height: 250px;
+      margin: 0%;
+      padding: 0%;
+    }
+    .entrenateConNosotros{
+      height: 350px;
+      iframe{
+        height: 250px;
+      }
+    }
+   
+  }
+  @media only screen and (min-width: 768px ){
+    body{
+      background-image: url(../img/dark-honeycomb.png);
+    }
+  }
+  @media only screen and (min-width: 1200px ){
+    body{
+      background-image: url(../img/fondo2.jpg);
+    }
+  }

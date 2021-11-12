@@ -1,0 +1,52 @@
+/*------------------------------------navegador de la pagina--------------------------------------------*/
+ul {
+    background-color: $bg_recuadros;
+    margin: 5px auto;
+    padding: 0%;
+    width: 100%;
+    max-width: 2000px;
+    list-style: none;
+    z-index: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  li {
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    color: $font_color;
+    text-decoration: none;
+    padding: 5px;
+  }
+  ul ul {
+     position: absolute;
+     display: none;
+     
+   }
+   ul ul li {
+     display: block;
+     transition: .2s ease;
+   }
+   ul li:hover {
+     color: rgb(140, 182, 60);
+   }
+   a {
+     text-decoration: none;
+     color: $font_color;
+     align-items: center;
+     transition: .3s ease;
+   }
+   
+   a:hover {
+     color: rgb(140, 182, 60);
+   }
+   ul li:hover ul{
+     display: block;
+     background-color: rgb(185, 184, 184);
+   }
+  .subitem{
+     align-items: center;
+     font-size: 70%;
+  }
+  
