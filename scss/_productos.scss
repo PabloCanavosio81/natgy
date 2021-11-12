@@ -1,4 +1,39 @@
-       /*----------------------------especificacione del main en los html de los productos--------------------*/
+      /*---------------------------------productos-------------------------------------------------------*/
+.productos {
+  color: $font_color;
+  background-color:$bg_recuadros;
+  margin: 2%;
+  padding: 1%;
+  border-radius: 15px ;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  .caja {
+     width: 350px;
+     height: auto;
+     padding: 20px;
+     margin: 20px;
+     display: inline-block;
+     flex-direction: column;
+     justify-content: center;
+     text-align: center;
+     background-color: $bg_productos;
+     margin-left: 25px;
+     margin-right: 25px;
+     margin-bottom: 5%;
+     opacity: .9;
+     border-radius: 15px;
+     transition: .3s ease;
+     box-shadow: 0 8px 32px 0 rgba(19, 19, 19, 0.301);
+     &:hover{
+       opacity:2;
+       border: white;
+       transform: scale(1.1,1.1) ;
+     }
+}
+}   
+      
+      /*----------------------------especificacione del main en los html de los productos--------------------*/
 
        .fondoProducto {/*organizacion de los productos*/
         margin: 20px;
