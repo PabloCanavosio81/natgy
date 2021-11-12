@@ -138,6 +138,7 @@ ul li:hover ul {
     margin: 20px;
     display: inline-block;
     flex-direction: column;
+    justify-content: center;
     text-align: center;
     background-color: #c7f1c2;
     margin-left: 25px;
@@ -265,6 +266,8 @@ ul li:hover ul {
     height: 250px;
     margin: 0%;
     padding: 0%; }
+  .caja {
+    width: 200px; }
   .entrenateConNosotros {
     height: 350px; }
     .entrenateConNosotros iframe {
