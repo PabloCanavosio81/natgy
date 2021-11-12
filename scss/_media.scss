@@ -11,8 +11,8 @@
       color: $font_color ;
       font-size: 1.2rem;
     }
-    .ultimo{
-      height: 300px;
+   .ultimo{
+        height: 200px;
     }
     .sticky-bottom{
       top: 540px;
@@ -24,9 +24,12 @@
       margin: 0%;
       padding: 0%;
     }
-    .caja{
-      width: 200px;
-    }
+    .productos{
+       .caja{
+          width: 350px;
+          justify-content: center;
+         }
+     }    
     .entrenateConNosotros{
       height: 350px;
       iframe{
