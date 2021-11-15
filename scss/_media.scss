@@ -1,7 +1,9 @@
 /*----------------------------------media tamano dispositivos-----------------------------------------*/
 @media only screen and (max-width:768px ) {
     @mixin caja {
-      width: 300px;
+      width: 80%;
+      margin-left: 10%;
+      margin-right: 10%;
     }
     body{
       background-image: url(../img/653578_052c27477b62408f890fba01758708d0_mv2_d_5574_7115_s_4_2.jpeg);

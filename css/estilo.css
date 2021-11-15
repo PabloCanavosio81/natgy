@@ -352,11 +352,17 @@ ul li:hover ul {
     flex-direction: column;
     justify-content: center; }
     .productos .proteinas {
-      width: 300px; }
+      width: 80%;
+      margin-left: 10%;
+      margin-right: 10%; }
     .productos .energizante {
-      width: 300px; }
+      width: 80%;
+      margin-left: 10%;
+      margin-right: 10%; }
     .productos .bebidaIsotonica {
-      width: 300px; }
+      width: 80%;
+      margin-left: 10%;
+      margin-right: 10%; }
   .entrenateConNosotros {
     height: 350px; }
     .entrenateConNosotros iframe {
