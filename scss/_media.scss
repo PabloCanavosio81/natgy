@@ -25,10 +25,13 @@
       padding: 0%;
     }
     .productos{
-       .caja{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+        .caja{
           width: 300px;
-          justify-content: center;
-         }
+          margin-right: 50px;
+          } 
      }    
     .entrenateConNosotros{
       height: 350px;

@@ -131,7 +131,7 @@ ul li:hover ul {
   display: flex;
   flex-direction: column;
   justify-content: center; }
-  .productos .caja {
+  .productos .proteinas {
     width: 350px;
     height: auto;
     padding: 20px;
@@ -148,7 +148,49 @@ ul li:hover ul {
     border-radius: 15px;
     transition: .3s ease;
     box-shadow: 0 8px 32px 0 rgba(19, 19, 19, 0.301); }
-    .productos .caja:hover {
+    .productos .proteinas:hover {
+      opacity: 2;
+      border: white;
+      transform: scale(1.1, 1.1); }
+  .productos .energizante {
+    width: 350px;
+    height: auto;
+    padding: 20px;
+    margin: 20px;
+    display: inline-block;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color: #c7f1c2;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 5%;
+    opacity: .9;
+    border-radius: 15px;
+    transition: .3s ease;
+    box-shadow: 0 8px 32px 0 rgba(19, 19, 19, 0.301); }
+    .productos .energizante:hover {
+      opacity: 2;
+      border: white;
+      transform: scale(1.1, 1.1); }
+  .productos .bebidaIsotonica {
+    width: 350px;
+    height: auto;
+    padding: 20px;
+    margin: 20px;
+    display: inline-block;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color: #c7f1c2;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 5%;
+    opacity: .9;
+    border-radius: 15px;
+    transition: .3s ease;
+    box-shadow: 0 8px 32px 0 rgba(19, 19, 19, 0.301); }
+    .productos .bebidaIsotonica:hover {
       opacity: 2;
       border: white;
       transform: scale(1.1, 1.1); }
@@ -305,9 +347,13 @@ ul li:hover ul {
     height: 250px;
     margin: 0%;
     padding: 0%; }
-  .productos .caja {
-    width: 300px;
+  .productos {
+    display: flex;
+    flex-direction: column;
     justify-content: center; }
+    .productos .caja {
+      width: 300px;
+      margin-right: 50px; }
   .entrenateConNosotros {
     height: 350px; }
     .entrenateConNosotros iframe {
