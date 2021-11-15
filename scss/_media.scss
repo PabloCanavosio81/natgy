@@ -1,5 +1,8 @@
 /*----------------------------------media tamano dispositivos-----------------------------------------*/
 @media only screen and (max-width:768px ) {
+    @mixin caja {
+      width: 330px;
+    }
     body{
       background-image: url(../img/653578_052c27477b62408f890fba01758708d0_mv2_d_5574_7115_s_4_2.jpeg);
       font-size: 10px;
@@ -28,10 +31,15 @@
       display: flex;
       flex-direction: column;
       justify-content: center;
-        .caja{
-          width: 300px;
-          margin-right: 50px;
+        .proteinas{
+          @include caja();
           } 
+        .energizante{
+          @include caja();
+        } 
+        .bebidaIsotonica{
+          @include caja();
+        } 
      }    
     .entrenateConNosotros{
       height: 350px;
